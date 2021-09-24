@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -653,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -746,6 +746,12 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -782,7 +788,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:yellow!important;
 }
 
 .btn-atomic-tangerine {
@@ -855,13 +861,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -879,10 +885,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -891,8 +893,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1046,4 +1046,27 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* CSS ajouté */
+
+.texte_citation {
+    display: inline-block;
+    justify-content: center;
+    width:70%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+}
+
+.citation_text {
+    display: inline-block;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.citation_author {
+    font-size: 0.9em;
+    font-weight: normal;
 }
