@@ -1048,6 +1048,7 @@ h4 {
     }
 }
 
+
 /* CSS ajouté */
 
 .texte_citation {
@@ -1069,4 +1070,78 @@ h4 {
 .citation_author {
     font-size: 0.9em;
     font-weight: normal;
+}
+
+
+/* Page contact */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accueil {
+    text-decoration: none;
+}
+
+.parlons_web {
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.votre_projet {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Formulaire */
+label {
+    line-height: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+}
+
+/* Contact */
+
+.row_tableau {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_adress {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* footer */
+
+.social_tableau {
+    display: flex;
+    justify-content: space-around;
+}
+
+.centre {
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    textarea {
+        width: 275px;
+        height: 150px;
+    }
+
+    .row_tableau {
+        flex-direction: column;
+    }
 }
