@@ -1074,7 +1074,7 @@ h4 {
 
 
 /* Page contact */
-header nav {
+.headerflex {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1082,6 +1082,7 @@ header nav {
 
 .accueil {
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .parlons_web {
@@ -1144,4 +1145,15 @@ input {
     .row_tableau {
         flex-direction: column;
     }
+}
+
+
+.test {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
